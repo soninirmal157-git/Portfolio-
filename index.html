@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Porfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+    <link rel="stylesheet" href="fontawesome-free-7.3.1-web/fontawesome-free-7.3.1-web/css/all.min.css">
+    <style>
+        /* .assignments{
+            text-align: center;
+            height: 7vh;
+            line-height: 1.6;
+        }
+        .con{
+            height: 93vh;
+            display: flex;
+        }
+        .btn{
+            height: 100%;
+            width: 25%;
+            border: 1px solid black;
+            display: flex;
+            flex-diassignment-cardtion: column;
+            align-items: center;
+            justify-content: space-around;    
+            overflow-y: auto;
+        }
+        .view{
+            height: 100%;
+            width: 75%;
+            border: 1px solid black;
+        }
+        .btn a{
+            width: 90%;
+            text-decoration: none;
+            flex: 0 0 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 99px;
+            background: navy;
+            color: white;
+            font-size: clamp(.4rem,2vw,1rem);
+        }
+        @media (max-width:600px) {
+            .con{
+                flex-diassignment-cardtion: column;
+            }
+            .btn{
+                width: 100%;
+                height: 20%;
+                flex-diassignment-cardtion: row;
+                gap: 3%;
+            }
+            .btn a{
+                flex: 0 0 40px;
+                padding: 10px 20px;
+                white-space: nowrap;
+            }
+            .view{
+                width: 100%;
+            }
+        } */
+        /* .skills{
+            height: 100vh;
+            border: 1px solid black;
+            background: yellowgreen;
+        }
+        .cards{
+            height: 85%;
+            width: 80%;
+            border: 1px solid black;
+            margin: 3% auto;
+            gap: 4%;
+            flex-wrap: wrap;
+        }
+        .card{
+            height: 30%;
+            width: 30%;
+            border: 1px solid black;
+            border-radius: 30px 30px 30px 10px;
+        } */
+        
+        @media (max-width: 860px) {
+  .hero-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 48px; }
+  .about-photo { position: static; }
+  .arch-wrap { max-width: 320px; }
+  .chip.one { left: -4%; }
+  .chip.two { right: -4%; }
+}
+@media (max-width: 560px) {
+  .bar { padding: 8px 14px; }
+  .logo span.name { display: none; }
+  nav a { padding: 8px 10px; font-size: .88rem; }
+  .skills-grid, .assign-grid { grid-template-columns: 1fr; }
+  .hero{
+    flex-direction: column;
+  }
+  .left{
+    padding:50px 10px 10px 20px;
+  }
+  .hero .p{
+    width: 350px;
+  }
+}
+        
+    </style>
+</head>
+<body>
+    <header>
+        <a href="" class="logo">
+            <span class="dot"></span><span>Nirmal Soni</span>
+        </aNirmalnav class="menu">
+            <a href="#home">HOME</a>
+            <a href="#about">ABOUT</a>
+            <a href="#skills">SKILLS</a>
+            <a href="#assignments">ASSIGNMENTS</a>
+            <a href="#contact" class="active">CONTACT</a>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="left">
+            <p class="college">
+                <i class="fas fa-graduation-cap" style="color: var(--cobalt);"></i> Dezyne Ecole College, Ajmer
+            </p>
+            <h2 class="name">Nirmal Soni</h2>
+            <p clasNirmaltch">BCA first-year · Web Developer</p>
+            <p class="p">I’m learning to build responsive websites with HTML5 and CSS3. Browse my assignments, check my skills, and get in touch.</p>
+            <div class="btns">
+                <a class="as" href=""><i class="fas fa-folder-open"></i> View assignments</a>
+                <a class="white" href=""><i class="fas fa-envelope"></i> Contact me</a>
+            </div>
+             <div class="icons">
+                <a href="tel:+919660432565"><i class="fas fa-phone"></i></a>
+                <a href="https://wa.me/916375132226"><i class="fab fa-whatsapp"></i></a>
+                <a href="mailto:soninirmal157@gmail.com"><i class="fas fa-envelope"></i></a>
+                <a href="https://github.com"><i class="fab fa-github"></i></a>
+                <a href="https://linkedin.com"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="right">
+            <div class="oval"></div>
+            <div class="circle"></div>
+            <div class="mirror">
+                <div class="html"><i class="fab fa-html5 fa-2x"><p>HTML5</p></i></div>
+                <div class="css"><i class="fab fa-css3 fa-2x"><p>CSS3</p></i></div>
+                <img src="img.png.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <marquee behavior="" direction="right" class="marq">
+        <span>Git &amp; Github <i class="i">....</i> <i class="i">....</i></span>
+        <span>Flexbox &amp; Grid <i class="i">....</i> ✦ <i class="i">....</i></span>
+        <span>JavaScript <i class="i">....</i> ✦ <i class="i">....</i></span>
+        <span>Responsive Desgin <i class="i">....</i> ✦ <i class="i">....</i></span>
+        <span>CSS3 <i class="i">....</i> ✦ <i class="i">....</i></span>
+        <span>HTML5 <i class="i">....</i> ✦ <i class="i">....</i></span>
+        <span>Git &amp; Github <i class="i">....</i> <i class="i">....</i></span>
+        <span>Flexbox &amp; Grid <i class="i">....</i> ✦ <i class="i">....</i></span>
+        <span>JavaScript <i class="i">....</i> ✦ <i class="i">....</i></span>
+        <span>Responsive Desgin <i class="i">....</i> ✦ <i class="i">....</i></span>
+        <span>CSS3 <i class="i">....</i> ✦ <i class="i">....</i></span>
+        <span>HTML5 <i class="i">....</i> <i class="i">....</i></span>
+    </marquee>
+    <section id="about" class="about">
+        <div class="inner">
+            <div class="about-left">
+                <div class="mirror2">
+                    <img src="img.png.jpg" alt="">
+                </div>
+            </div>
+            <div class="about-right">
+                <h1>Learning to build for the web</h1>
+                <p>Hello! I’m <b>Nirmal Soni</b>, a first-year BCA stNirmal at Dezyne École Collège. I’m passionate about web development and have been learning HTML5 and CSS3 to build modern, responsive websites.</p>
+                <div class="aboutme">
+                    <h3>About my college</h3>
+                    <p>Dezyne École Collège is a premier institution known for its quality education in computer science and information technology. The curriculum focuses on practical, industry-relevant skills combined with strong theoretical foundations.</p>
+                </div>
+                <div class="path">
+                    <h3>My learning path</h3>
+                    <li>Completed HTML & CSS fundamentals (30-class curriculum)</li>
+                    <li>Building responsive web layouts with Flexbox</li>
+                    <li>Creating interactive forms and animations</li>
+                    <li>Learning web hosting and deployment</li>
+                </div>
+                <p>Throughout, I focus on modern web design best practices.</p>
+            </div>
+        </div>
+    </section>
+    <!-- <section class="assignment">
+        <h1 class="assignments">Assignments</h1>
+        <div class="con">
+            <div class="btn">
+                <a href="D:\Nirmal\Assignment-1\index.html" target="Nirmal">Assignment-1</a>
+                <a href="D:\Nirmal\Assignment-2\index.html" target="Nirmal">Assignment-2</a>
+                <a href="D:\Nirmal\Assignment-3\index.html" target="Nirmal">Assignment-3</a>
+                <a href="D:\Nirmal\Assignment-4\index.html" target="Nirmal">Assignment-4</a>
+                <a href="D:\Nirmal\Assignment-5\index.html" target="Nirmal">Assignment-5</a>
+                <a href="D:\Nirmal\Assignment-6\index.html" target="Nirmal">Assignment-6</a>
+                <a href="D:\Nirmal\Assignment-7\index.html" target="Nirmal">Assignment-7</a>
+                <a href="D:\Nirmal\Assignment-8\index.html" target="Nirmal">Assignment-8</a>
+                <a href="D:\Nirmal\Assignment-9\index.html" target="Nirmal">Assignment-9</a>
+                <a href="D:\Nirmal\Assignment-10\index.html" target=Nirmal">Assignment-10</a>
+                <a href="D:\Nirmal\Assignment-11\index.html" target=Nirmal">Assignment-11</a>
+            </div>
+            <iframe src="sub file/images/capture.JPG" frameborder="0" class="view" name="Nirmal"></iframe>
+        </div>
+    </section> -->
+    <section id="skills" class="skills">
+        <div class="skills-box">
+            <h1>My Skills</h1>
+            <p>The technical skills I’ve developed during my first year of BCA.</p>
+            <div class="cards">
+                <div class="card">
+                    <div class="card-top">
+                        <div class="tl"><i class="fab fa-html5 fa-2x" style="color:rgba(255, 68, 0, 0.966)"></i></div>
+                        <div class="tr"><h3>HTML5</h3><span>Expert Level</span></div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="bar" >
+                            <i class="bari" style="width: 95%; height: 100%;"></i>
+                        </div>
+                        <b>95%</b>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-top">
+                        <div class="tl"><i class="fab fa-css3-alt fa-2x" style="color:#5B93FF"></i></div>
+                        <div class="tr"><h3>CSS3</h3><span>Advanced Level</span></div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="bar"><i style="width: 90%;"></i></div><b>90%</b>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-top">
+                        <div class="tl"><i class="fab fa-js fa-2x" style="color:gold"></i></div>
+                        <div class="tr"><h3>JavaScript</h3><span>Intermediate</span></div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="bar"><i style="width: 70%;"></i></div><b>70%</b>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-top">
+                        <div class="tl"><i class="fas fa-mobile-alt fa-2x" style="color:turquoise"></i></div>
+                        <div class="tr"><h3>Responsive Design</h3><span>Advanced</span></div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="bar"><i style="width: 85%;"></i></div><b>85%</b>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-top">
+                        <div class="tl"><i class="fas fa-layer-group fa-2x" style="color:var(--marigold)"></i></div>
+                        <div class="tr"><h3>Flexbox & Grid</h3><span>Advanced</span></div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="bar"><i style="width: 88%;"></i></div><b>88%</b>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-top">
+                        <div class="tl"><i class="fab fa-github fa-2x" style="color:white"></i></div>
+                        <div class="tr"><h3>Git & Github</h3><span>Intermediate</span></div>
+                    </div>
+                    <div class="card-bottom">
+                        <div class="bar"><i style="width: 75%;"></i></div><b>75%</b>
+                    </div>
+                </div>
+                <div class="ani"></div>
+            </div>
+        </div>
+    </section>
+    <section class="assignments" id="assignments">
+        <div class="myy">
+            <h1>My Assignments</h1>
+            <p>Key assignments and projects from the HTML & CSS curriculum.</p>
+        </div>
+        <div class="assignment-card">
+            <div class="top">
+                <div class="mirrr"><i class="fas fa-file-code fa-2x" style="color: var(--cobalt);"></i></div>
+            </div>
+            <div class="bottom">
+                <h2>HTML Basics</h2>
+                <p><b>Task: </b>Create a structured web page using semantic HTML5 tags.</p>
+                <ul>
+                    <li>Used proper document structure</li>
+                    <li>Implemented all heading levels</li>
+                    <li>Created meaningful lists and content</li>
+                    <li>Added internal and external links</li>
+                </ul>
+            </div>
+        </div>
+        <div class="assignment-card">
+            <div class="top" style="background-color: var(--turquoise);">
+                <div class="mirrr"><i class="fas fa-palette fa-2x" style="color: var(--turquoise);"></i></div>
+            </div>
+            <div class="bottom">
+                <h2>CSS Styling</h2>
+                <p><b>Task: </b>Apply professional CSS styling to a web page.</p>
+                <ul>
+                    <li>Used external CSS stylesheet</li>
+                    <li>Applied colors and typography</li>
+                    <li>Created hover effects and transitions</li>
+                    <li>Implemented CSS box model properties</li>
+                </ul>
+            </div>
+        </div>
+        <div class="assignment-card">
+            <div class="top" style="background-color: var(--marigold);">
+                <div class="mirrr"><i class="fas fa-images fa-2x"></i></div>
+            </div>
+            <div class="bottom">
+                <h2>Image Gallery</h2>
+                <p><b>Task: </b>Create a responsive image gallery with CSS effects.</p>
+                <ul>
+                    <li>Built column-wise grid layout</li>
+                    <li>Added border-radius and shadow effects</li>
+                    <li>Implemented zoom on hover animation</li>
+                    <li>Made it fully responsive</li>
+                </ul>
+            </div>
+        </div>
+        <div class="assignment-card">
+            <div class="top" style="background-color: var(--ink);">
+                <div class="mirrr"><i class="fas fa-mobile-alt fa-2x"></i></div>
+            </div>
+            <div class="bottom">
+                <h2>Responsive Design</h2>
+                <p><b>Task: </b>Build a mobile-first responsive website.</p>
+                <ul>
+                    <li>Used media queries for breakpoints</li>
+                    <li>Flexbox for flexible layouts</li>
+                    <li>Tested on multiple screen sizes</li>
+                    <li>Optimized for mobile and desktop</li>
+                </ul>
+            </div>
+        </div>
+        <div class="assignment-card">
+            <div class="top">
+                <div class="mirrr"><i class="fas fa-keyboard fa-2x" style="color: var(--cobalt);"></i></div>
+            </div>
+            <div class="bottom">
+                <h2>HTML Forms</h2>
+                <p><b>Task: </b>Create and style an interactive form.</p>
+                <ul>
+                    <li>Used all input types (text, email, tel)</li>
+                    <li>Applied form validation styling</li>
+                    <li>Created focus and hover effects</li>
+                    <li>Styled buttons with animations</li>
+                </ul>
+            </div>
+        </div>
+        <div class="assignment-card">
+            <div class="top" style="background-color: var(--turquoise);">
+                <div class="mirrr"><i class="fas fa-film fa-2x" style="color:var(--turquoise);"></i></div>
+            </div>
+            <div class="bottom">
+                <h2>Media & Animation</h2>
+                <p><b>Task: </b>Embed media and create CSS animations.</p>
+                <ul>
+                    <li>Embedded audio and video elements</li>
+                    <li>Created keyframe animations</li>
+                    <li>Used transition and transform effects</li>
+                    <li>Built loading spinner animation</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section class="contact" id="contact">
+        <div class="contact-inner">
+            <div class="banner">
+                <div class="blur">
+                    <!-- <img src="img.png.jpg" alt=""> -->
+                    <h1>Contact me</h1>
+                    <p>Based in Rajasthan. Call, message, or send a note.</p>
+                </div>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <h3>Contact information</h3>
+                    <ul class="info">
+                        <li>
+                            <span class="ico"><i class="fas fa-phone"></i></span>
+                            <div><small>Phone</small><a href="tel:+916375132226">+91 6375132226</a></div>
+                        </li>
+                        <li>
+                            <span class="ico"><i class="fas fa-envelope"></i></span>
+                            <div><small>Email</small><a href="mailto:soninirmal157@gmail.com">soninirmal157@gmail.com</a></div>
+                        </li>
+                        <li>
+                            <span class="ico"><i class="fab fa-whatsapp"></i></span>
+                            <div><small>WhatsApp</small><a href="https://wa.me/916375132226">Message on WhatsApp</a></div>
+                        </li>
+                        <li>
+                            <span class="ico"><i class="fas fa-map-marker-alt"></i></span>
+                            <div><small>Address</small><b>Ajmer, Rajasthan, India</b></div>
+                        </li>
+                        <li>
+                            <span class="ico"><i class="fas fa-graduation-cap"></i></span>
+                            <div><small>College</small><b>Dezyne École Collège, Ajmer</b></div>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="form" action="mailto:soninirmal157@gmail.com" method="post" enctype="text/plain">
+                    <h3>Send me a message</h3>
+                    <div class="field">
+                        <label for="name">Full name</label>
+                        <input type="text" id="name" name="Name" placeholder="Your name" required>
+                    </div>
+                    <div class="field">
+                        <label for="email">Email address</label>
+                        <input type="email" id="email" name="Email" placeholder="you@example.com" required>
+                    </div>
+                    <div class="field">
+                        <label for="subject">Subject</label>
+                        <input type="text" id="subject" name="Subject" placeholder="What is this about?" required>
+                    </div>
+                    <div class="field">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="Message" placeholder="Type your message here" required></textarea>
+                    </div>
+                    <button class="send" type="submit"><i class="fas fa-paper-plane"></i> Send message</button>
+                    <p class="hint">Sending opens your email app with this message ready to go.</p>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 Nirmal Soni | Student Portfolio | DeNirmalÉcole Collège</p>
+        <p>BCA First Year | HTML5 & CSS3 Assignment Project</p>
+    </footer>
+</body>
+</html>
