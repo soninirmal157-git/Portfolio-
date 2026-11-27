@@ -463,7 +463,9 @@ i>p{
     display: flex;
 }
 .card-top{
-    height: 52%;
+    height: 82%;
+    display:flex;
+    justify-content:center;
     align-items: center;
     /* border: 1px solid black; */
 }
