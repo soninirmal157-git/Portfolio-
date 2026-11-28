@@ -615,6 +615,8 @@ i>p{
     overflow: hidden;
     animation: zoom 50s infinite linear;
     position: relative;
+    background-size:cover;
+    background-repeat:no-repeat;
 }
 @keyframes zoom{
     0%,100%{
